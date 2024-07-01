@@ -1,4 +1,7 @@
-## Hi there 👋
+## Olá 👋
+
+##### Sobre a Jane
+4 anos de experiência com Salesforce e Hubspot, mas que agora está se aventurando a codar e expandir os horizontes.
 
 <!--
 **janeferreira/janeferreira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
