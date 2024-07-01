@@ -3,6 +3,9 @@
 ##### Sobre a Jane
 4 anos de experiência com Salesforce e Hubspot, mas que agora está se aventurando a codar e expandir os horizontes.
 
+(https://github-readme-stats.vercel.app/api?username=janeferreira&show_icons=true&theme=buefy)(https://github.com/janeferreira/github-readme-stats)
+| ------------- | ------------- |
+
 <!--
 **janeferreira/janeferreira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
