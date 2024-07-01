@@ -3,6 +3,9 @@
 ##### Sobre a Jane
 4 anos de experiência com Salesforce e Hubspot, mas que agora está se aventurando a codar e expandir os horizontes.
 
+### Em breve
+- Aplicativo de meteorologia, aplicativo de ecommerce e aplicativo de nomes
+
 ### Detalhes
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=janeferreira&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
