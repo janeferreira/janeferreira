@@ -7,7 +7,8 @@
 - Aplicativo de meteorologia, aplicativo de ecommerce e aplicativo de nomes
 
 ### Experiências passadas
-- Athena
+- Athena:
+  
 Aplicativo web utilizando javascript e desktop utilizando C#, com o objetivo de realizar gerenciamento de tarefas.
 
 ### Detalhes
