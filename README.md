@@ -3,9 +3,21 @@
 ##### Sobre a Jane
 4 anos de experiência com Salesforce e Hubspot, mas que agora está se aventurando a codar e expandir os horizontes.
 
-[!Projetos da Jane] (https://github-readme-stats.vercel.app/api?username=janeferreira&show_icons=true&theme=buefy)](https://github.com/janeferreira/github-readme-stats)
-| ------------- | ------------- |
+### Detalhes
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=janeferreira&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+### Projetos
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=janeferreira&repo=variavel&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+### Linguagens utilizadas
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=janeferreira&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+### Contatos
+
+[<img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white' alt='Linkedin' height='30'>](https://www.linkedin.com/in/pedrobrocaldi/)
 <!--
 **janeferreira/janeferreira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
