@@ -6,6 +6,10 @@
 ### Em breve
 - Aplicativo de meteorologia, aplicativo de ecommerce e aplicativo de nomes
 
+### Experiências passadas
+- Athena
+Aplicativo web utilizando javascript e desktop utilizando C#, com o objetivo de realizar gerenciamento de tarefas.
+
 ### Detalhes
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=janeferreira&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
