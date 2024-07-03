@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 5</title>
+        <style>
+            body{
+                background-color:#f2f2f2;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            tr:hover {
+                background-color: #d5d5d5;
+            }
+            .input-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+            }
+            input, label {
+                text-align: center;
+                margin: 5px 0;
+            }
+            input[type="submit"] {
+                margin-top: 10px;
+            }
+        </style>
+        <script>
+            function armazenarValor() {
+                var nome = document.getElementById("nome").value;
+                var idade = document.getElementById("idade").value;
+                var estado = document.getElementById("estado").value;
+
+                var tabela = document.querySelector("table tbody");
+                var novaLinha = document.createElement("tr");
+
+                var colunaNome = document.createElement("td");
+                colunaNome.textContent = nome;
+                novaLinha.appendChild(colunaNome);
+
+                var colunaIdade = document.createElement("td");
+                colunaIdade.textContent = idade;
+                novaLinha.appendChild(colunaIdade);
+
+                var colunaEstado = document.createElement("td");
+                colunaEstado.textContent = estado;
+                novaLinha.appendChild(colunaEstado);
+
+                tabela.appendChild(novaLinha);
+
+                document.getElementById("valorInserido").innerText = "Adicionado: " + nome + ", " + idade + ", " + estado;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Exercício do módulo 5</h1>
+            <div id="input-container">
+            <label for="nome">Digite seu nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="idade">Digite sua idade:</label>
+            <input type="number" id="idade" name="idade" required><br><br>
+
+            <label for="estado">Digite o estado onde você mora:</label>
+            <input type="text" id="estado" name="estado" required><br><br>
+
+            <input type="submit" value="Submeter" onclick="armazenarValor()">
+         </div>
+
+        <p id="valorInserido"></p>
+
+        <br><br>
+
+        <table>
+            <thead>
+                <tr> 
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alberto</td>
+                    <td>50</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Flávia</td>
+                    <td>30</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>Marcelo</td>
+                    <td>25</td>
+                    <td>Minas Gerais</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
