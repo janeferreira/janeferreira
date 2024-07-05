@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width", initial-scale="1.0">
+        <title>Display e Posição</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+            }
+            h1, h2{
+                color: black;
+            }
+            section{
+                margin-bottom: 40px;
+
+            }
+            .display-examples div,
+            .position-examples div{
+                padding: 10px;
+                margin: 5px;
+                border: 1px solid #ccc;
+            }
+            .display-block{
+                display: block;
+                background-color: #f9f9f9;
+            }
+            .display-inline{
+                display: inline;
+                background-color: #e9e9e9;
+            }
+            .display-inline-block{
+                display: inline-block;
+                background-color: #e9e9e9;
+            }
+            .display-none{
+                display: none;
+                background-color: #f9f9f9f9;
+            }
+            .position-static{
+                position: static;
+                background-color: #f9f9f9;
+            }
+            .position-relative{
+                position: relative;
+                background-color: #e9e9e9;
+                top: 10px;
+                left: 10px;
+            }
+            .position-absolute{
+                position: absolute;
+                background-color: #e9e9e9;
+                top: 1000px;
+                left: 50px;
+            }
+            .position-fixed{
+                position: fixed;
+                background-color: #c9c9c9;
+                top:10px;
+                right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+            <h1>Exemplo de aula display e posição</h1>
+
+            <section>
+                <h2>Display</h2>
+                <div class="display-examples">
+                    <div class="display-block">display: isso é o block</div>
+                    <div class="display-inline">display: isso é o inline 1</div>
+                    <div class="display-inline">display: isso é o inline bem maior</div>
+                    <div class="display-inline-block">display: isso é o inline block</div>
+                    <div class="display-none">display: isso é o que não aparece</div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Posições</h2>
+                <div class="position-examples">
+                    <div class="position-static">posição estática</div>
+                    <div class="position-static">posição estática</div>
+                    <div class="position-relative">posição relativa</div>
+                    <div class="position-absolute">posição absoluta</div>
+                    <div class="position-fixed">posição fixa</div>
+                </div>
+            </section>
+    </body>
+</html>

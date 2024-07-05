@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width", initial-scale="1.0">
+        <title>Display e Posição</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0px;
+                padding: 20px;
+                background-color: #f0f0f0;
+                color: #333;
+            }
+            h1,h2{
+                color: #333;
+            }
+            section{
+                margin-bottom: 40px;
+            }
+            .text-color{
+                color: #7bff47;
+            }
+            .text-rgb{
+                color: rgb(60, 179, 113);
+            }
+            .text-hsl{
+                color: hsl(240, 100%, 50%);
+            }
+            .background-color{
+                background-color: #add8e6;
+                padding: 20px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+            }
+            .background-rgb{
+                background-color: rgb(255, 165, 0);
+                padding: 20px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+            }
+            .background-hsl{
+                background-color: hsl(120, 100%, 75%);
+                padding: 20px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+            }
+            .gradiente-linear{ 
+                background: linear-gradient(to right, #ff7f60, #1e90ff);
+                padding: 20px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                color: #fff;
+            }
+            .gradiente-radial{
+                background: radial-gradient(circle, #ff7F50, #1e90ff);
+                padding: 20px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                color: #fff;
+            }
+            .opacity-example{
+                background-color: #ff6347;
+                padding: 20px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                color: #fff;
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+    <body>
+            <h1>Exemplo de colorização no CSS</h1>
+
+            <section>
+                <h2>Cores de Texto</h2>
+                <p class="text-color">Este texto está colorido com uma cor horizontal.</p>
+                <p class="text-rgb">Este texto está colorido com uma cor RGB.</p>
+                <p class="text-hsl">Este texto está colorido por uma cor HSL.</p>
+            </section>
+
+            <section>
+                <h2>Cores de Fundo</h2>
+                <p class="background-color">Esta div tem uma cor de fundo horizontal.</p>
+                <p class="background-rgb">Este div tem uma cor de fundo RGB.</p>
+                <p class="background-hsl">Este div tem uma cor de fundo HSL.</p>
+            </section>
+
+            <section>
+                <h2>Gradientes</h2>
+                <p class="gradiente-linear">Este div tem um gradiente linear de fundo.</p>
+                <p class="gradiente-radial">Este div tem um gradiente radial de fundo.</p>
+            </section>
+
+            <section>
+                <h2>Opacidade</h2>
+                <p class="opacity-example">Este div tem uma opacidade de O.S.</p>
+            </section>
+    </body>
+</html>
